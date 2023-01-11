@@ -16,6 +16,12 @@ function multiplication (){
 }
 
 
+const calculateBtn = document.querySelector("#calculate");
+const clearBtn = document.querySelector("#clear");
+
+calculateBtn.addEventListener("click", multiplication);
+clearBtn.addEventListener("click", () => result.textContent = " ");
+
 
 
 
